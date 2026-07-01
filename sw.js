@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pwa-cache-v3';
+const CACHE_NAME = 'pwa-cache-v4';
 const PRECACHE_URLS = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', function(e) {

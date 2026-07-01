@@ -447,7 +447,7 @@ function setSubmitting(btnIdOrEl, submitting) {
 // ============================================================
 const T = {
   bn: {
-    dashboard:'ড্যাশবোর্ড', purchase:'ক্রয় এন্ট্রি', expense:'খরচ লেজার', sales:'বিক্রয় ও স্টক',
+    dashboard:'ড্যাশবোর্ড', purchase:'নতুন পণ্য এন্ট্রি', expense:'খরচ লেজার', sales:'বিক্রয় ও স্টক',
     due:'বাকি গ্রাহক', billing:'বিলিং', customer:'আমার হিসাব', users:'ইউজার ম্যানেজমেন্ট',
     category:'ক্যাটাগরি ম্যানেজমেন্ট', profile:'প্রোফাইল', logout:'লগআউট',
     today:'আজকের', monthly:'মাসের', purchase_total:'মোট ক্রয়', sales_total:'মোট বিক্রয়',
@@ -476,7 +476,7 @@ const T = {
     collections:'কালেকশন রিপোর্ট'
   },
   en: {
-    dashboard:'Dashboard', purchase:'Purchase Entry', expense:'Expense Ledger', sales:'Sales & Stock',
+    dashboard:'Dashboard', purchase:'New Product Entry', expense:'Expense Ledger', sales:'Sales & Stock',
     due:'Due Customers', billing:'Billing', customer:'My Account', users:'User Management',
     category:'Category Management', profile:'Profile', logout:'Logout',
     today:"Today's", monthly:"Monthly", purchase_total:'Total Purchase', sales_total:'Total Sales',
@@ -853,7 +853,7 @@ async function renderPurchase() {
     </div>`:``}
     <div class="card">
       <div class="card-header">
-        <span class="card-title">📋 ক্রয় তালিকা</span>
+        <span class="card-title">📋 পণ্য তালিকা</span>
         <button class="btn btn-success btn-sm" onclick="exportPurchases()">📥 ${t('download_excel')}</button>
       </div>
       <div class="card-body">
